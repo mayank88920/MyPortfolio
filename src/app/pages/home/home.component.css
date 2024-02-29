@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color:rgb(170, 170, 170);
+    width: 250px;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+.sidebar nav{
+    padding: 30px;
+    height: 100%;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+}
+.sidebar nav li a{
+
+text-decoration: none;
+color:rgb(21, 21, 21)
+
+}
+.main{
+    /* padding-left: 15px; */
+    /* background-color: blueviolet; */
+    width:100vw;
+}
+
+.infoContainer{
+    /* background-color: burlywood; */
+    height:58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    box-shadow: 10px 10px 5px rgb(208, 216, 218);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+    border-radius: 10px;
+    /* border: 2px rgb(21, 132, 176) solid;
+    border-radius:10px; */
+    /* background-color: rgb(231, 238, 176); */
+    justify-content: space-around;
+}
+.devPic img{
+    /* width:300px;
+    height:40vh; */
+
+    width: 18em;
+    height: 15em;
+    border-radius: 50%;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+   flex-direction:column;
+}
+.hello{
+font-size: 50px;
+font-family: "Open Sans", sans-serif;
+
+}
+.hello span{
+    font-size: 45px;
+}
+.name{
+    font-size: 45px;
+    color:#2F539B;
+    font-family: "Roboto Slab", serif;
+
+}
+.about{
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+    color:#778899;
+
+}
+.moreabout{
+    margin-top: 14px;
+    font-size:15px;
+    font-family: "Open Sans", sans-serif;
+    color:black;
+}
+.buttons{margin-top: 34px;
+}
+.btn{
+    
+    padding: 8px 12px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 1px 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+    font-size: 20px;
+}
+.btn:active{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    
+}
+@media(max-width:895px) {
+    .devPic{
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+}
+.contactform{
+    font-family: "Open Sans", sans-serif;
+    padding-top: 100px;
+}
+.contactform h2{
+    font-family: "Teko", sans-serif;
+    /* text-align: center; */
+}
+#emailHelp{
+    font-size: 8px;
+    color: rgb(113, 113, 147);
+    margin-left:5px;
+    padding: 3px 0 0 0;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+.form-control{
+    width: 20vw;
+    border-radius: 6px;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    padding: 4px;
+}
+.btn-sm{
+margin-bottom: 25px;
+}

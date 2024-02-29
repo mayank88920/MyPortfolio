@@ -1,0 +1,32 @@
+  .navbar{
+/* width:100%; */
+background-color: rgb(162, 176, 176);
+overflow:hidden;
+justify-content: center;
+
+  }
+.content{
+  /* justify-content: center; */
+  justify-content: space-around;
+  padding: 10px;
+  margin:0 300px;
+}
+.navbar a{
+  /* float: left; */
+  text-align: center;
+  padding:35px;
+  font-size: 20px;
+  text-decoration: none;
+  color:rgb(21, 21, 21);
+ 
+}
+.navbar a:hover{
+  color:rgb(15, 6, 48);
+  background-color: #E0E5E5;
+  /* border: 5px ; */
+}
+@media(max-width:895px) {
+  .navbar{
+    transform: translate(0px, -65px);
+  }
+}

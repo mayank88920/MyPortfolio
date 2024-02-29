@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.container{
+    display: flex;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.about p{
+    /* margin-left: 250px; */
+    width: 100%;
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Lobster", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  /* font-weight: 400;*/
+  
+  font-style: normal; 
+}
+.techskills{
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+.javaskill{
+    display: flex;
+}
+.springskill{
+    display: flex;
+}
+.java{
+    width:90vw;
+}
+.javaimg{
+    width:10vw;
+}
+.spring{
+    width:90vw;
+}
+.springimg{
+    width:10vw;
+}
+.java p{
+    
+    /* justify-content: center; */
+    flex-direction:column;
+    display:flex;
+}
+
+.javaimg img{
+    width:80px;
+    height: 65px;
+    /* border-radius: 50%;
+    border: 1px solid; */
+}
+.spring p{
+    
+    /* justify-content: center; */
+    flex-direction:column;
+    display:flex;
+}
+
+.springimg img{
+    width:80px;
+    height: 65px;
+    /* border-radius: 50%;
+    border: 1px solid; */
+}
